@@ -83,7 +83,7 @@ public abstract class Phone implements iBasePhone {
             if (this.number.equalsIgnoreCase(number)) {
                 throw new Exception("Занято! Вы звоните самому себе. Повторите попытку позднее, когда голоса в голове будут слышны четче.");
             }
-            Phone.find(number).getAnswer();
+            ((Phone)Phone.find(number))._getAnswer();
         } catch (Exception e) {
             System.out.println(e.getMessage());
         }
@@ -91,9 +91,12 @@ public abstract class Phone implements iBasePhone {
         iOutCalls++;
     }
 
-    public void getAnswer() {
+    private void _getAnswer() {
         iInCalls++;
+        this.getAnswer();
     }
+
+    public abstract void getAnswer();
 
     public abstract void sendSMS(String number, String message);
 }
