@@ -9,7 +9,6 @@ public class IPhone5 extends IPhone {
 
     @Override
     public void getAnswer() {
-//        super.getAnswer();
         System.out.println(this.getClass().getName() + ": " + number + " answer + красивая мелодия + видеоконференция!");
     }
 

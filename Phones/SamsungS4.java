@@ -17,7 +17,6 @@ public class SamsungS4 extends Phone {
 
     @Override
     public void getAnswer() {
-//        super.getAnswer();
         System.out.println(this.getClass().getName() + ": " + number + " answer + защита головы от ветра!");
     }
 

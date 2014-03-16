@@ -16,7 +16,6 @@ name.sundrop.phones.SamsungS4: 444-44-44 answer + защита головы от
 name.sundrop.phones.IPhone5 class is calling to 111-11-11
 name.sundrop.phones.Nokia3310: 111-11-11 answer!
 name.sundrop.phones.SamsungS4 class is calling to 333-33-33
-name.sundrop.phones.IPhone5: 333-33-33 answer + красивая мелодия!
 name.sundrop.phones.IPhone5: 333-33-33 answer + красивая мелодия + видеоконференция!
 name.sundrop.phones.SamsungS4 class is calling to 555-55-55
 Указанный номер не существует!
