@@ -50,7 +50,7 @@ public class Monitor {
     }
 
     public void start() {
-        while (iSize > 0) {
+        while (iSize > 0 || iExcludeSize > 0) {
             for (int i = 0; i < iSize; i++) {
                 File f = new File(filesMonitor[i]);
                 if (f.exists()) {
