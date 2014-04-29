@@ -3,9 +3,9 @@ package name.sundrop.shapes;
 /**
  * Общий класс для работы с фигурами
  */
-abstract public class Shape {
+public interface Shape {
 
-    abstract public double getArea();
+    double getArea();
 
-    abstract public double getPerimeter();
+    double getPerimeter();
 }
