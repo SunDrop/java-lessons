@@ -1,6 +1,6 @@
 package name.sundrop.shapes;
 
-public class Square extends Shape {
+public class Square implements Shape {
 
     private Point a, b;
 

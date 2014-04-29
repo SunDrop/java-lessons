@@ -3,7 +3,7 @@ package name.sundrop.shapes;
 /**
  * Класс для работы с треугольниками
  */
-public class Triangle extends Shape {
+public class Triangle implements Shape {
     private Point a, b, c;
 
     public Triangle(Point a, Point b, Point c) throws CloneNotSupportedException {

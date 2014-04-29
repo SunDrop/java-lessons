@@ -3,7 +3,7 @@ package name.sundrop.shapes;
 /**
  * Класс для работы с кругом
  */
-public class Circle extends Shape {
+public class Circle implements Shape {
     private Point cender;
 
     private double radius;
